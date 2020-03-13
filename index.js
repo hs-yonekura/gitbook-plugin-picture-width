@@ -18,7 +18,7 @@ module.exports = {
                 replaceText = '<div style="text-align:right">' + replaceText + '</div>';
                 break;
               case 'l':
-                replaceText = '<div style="text-align:light">' + replaceText + '</div>';
+                replaceText = '<div style="text-align:left">' + replaceText + '</div>';
                 break;
               default:
                 replaceText = replaceText.replace('<img', '<img width="' + v + '" ');
